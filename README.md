@@ -3,7 +3,7 @@ My Python solution to Codility's [demo test](https://codility.com/demo/take-samp
 
 >A zero-indexed array A consisting of N integers is given. An equilibrium index of this array is any integer P such that 0 ≤ P < N and the sum of elements of lower indices is equal to the sum of elements of higher indices, i.e.
 
->>```A[0] + A[1] + ... + A[P−1] = A[P+1] + ... + A[N−2] + A[N−1].```
+>```A[0] + A[1] + ... + A[P−1] = A[P+1] + ... + A[N−2] + A[N−1].```
 
 >Sum of zero elements is assumed to be equal to 0. This can happen if P = 0 or if P = N−1.
 
@@ -43,7 +43,7 @@ My Python solution to Codility's [demo test](https://codility.com/demo/take-samp
 
 >Write a function:
 
->>```def solution(A)```
+>```def solution(A)```
 
 >that, given a zero-indexed array A consisting of N integers, returns any of its equilibrium indices. The function should return −1 if no equilibrium index exists.
 
